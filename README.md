@@ -1,7 +1,10 @@
 # Requirements
 https://github.com/pypa/pipenv
+
 python 3
-docker
+
+docker, docker-compose
+
 https://stedolan.github.io/jq/
 
 # Install
