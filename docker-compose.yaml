@@ -12,7 +12,7 @@ services:
     ports:
       - "443:443"
       - "4566-4599:4566-4599"
-      - "8080:8080"
+      - "8090:8090"
     environment:
       - LOCALSTACK_API_KEY=${LOCALSTACK_API_KEY}
       - SERVICES=iam,kinesis,dynamodb
